@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import aboutMe from './components/aboutMe'
+import PrettyNav from './components/PrettyNav'
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
       </style>
       <Router>
         <Navbar />
+        <PrettyNav />
         <Switch>
-          <Route exact path='/'/>
+          <Route path='/' exact component={aboutMe} />
         </Switch>
       </Router>
     </>  

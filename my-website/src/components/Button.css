@@ -1,41 +1,34 @@
-:root {
-    --primary: #fff;
+.buttonContainer {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.btn {
-    padding: 8px 20px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
+.box-pic { 
+    display: inline-block; 
+    position: absolute; 
+    top: 0px;
+    width: 20rem; height: 
+    20rem; overflow: hidden; 
+    transform: scale(1);
+} 
+
+.box-pic img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: -65px; 
+    transform: scale(0.83);
 }
 
-.btn--primary {
-    background-color: var(--primary);
-    color: #242424;
-    border: 1px solid var(--primary);
+.buttonText {
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
 }
 
-.btn--outline {
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
-}
-
-.btn-medium {
-    padding: 8px 20px;
-    font-size: 20px;
-}
-
-.btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
-}
-
-.btn--medium:hover, .btn--large:hover {
-    background: #fff;
-    color: #242424;
-    transition: all 0.3s ease-out;
+.button-link {
+    text-decoration: none;
 }

@@ -1,0 +1,63 @@
+.aboutMeBox {
+    background-color: #D9F2F8;
+    height: 42.8rem;
+    width: 52rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.circular-pic { 
+    display: inline-block; 
+    position: relative; 
+    width: 200px; height: 
+    200px; overflow: hidden; 
+    border-radius: 50%; 
+    margin-left: 5.8rem;
+    margin-top: 5.8rem;
+    transform: scale(1.6);
+} 
+
+.circular-pic img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: 0px; 
+    transform: scale(1.10);
+}
+
+.helloBlock {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin-left: 24.5rem;
+    margin-top: -8rem;
+}
+
+.helloTxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.nameBlock {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin-left: 24.4rem;
+    margin-top: 1rem;
+}
+
+.nameTxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.aboutMeTextBlock {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin-left: 4.3rem;
+    margin-top: 7rem;
+}
+
+.aboutMeTxt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+

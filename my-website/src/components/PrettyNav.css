@@ -1,0 +1,8 @@
+.PrettyNavContainer {
+    background-color: black;
+    position: absolute;
+    margin-top: 2rem;
+    right: 2rem;
+    width: 50%;
+    height: 42.8rem;
+}
