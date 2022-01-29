@@ -29,7 +29,7 @@ function Navbar() {
                     
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
-                    <img src="../public/images/Hamburger Menu Icon.png" alt="="></img>
+                    <img src="../../public/images/MenuIcon.png" alt="=" width='50'></img>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
