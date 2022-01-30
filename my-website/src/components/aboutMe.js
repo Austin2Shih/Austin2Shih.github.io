@@ -1,7 +1,7 @@
 import React from 'react';
-import './aboutMe.css';
+import './AboutMe.css';
 
-function aboutMe() {
+function AboutMe() {
   return (
     <div className='aboutMeBox'>
         <div class="circular-pic">
@@ -30,4 +30,4 @@ function aboutMe() {
     );
 }
 
-export default aboutMe;
+export default AboutMe;

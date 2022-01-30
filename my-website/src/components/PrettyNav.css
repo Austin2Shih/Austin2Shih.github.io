@@ -1,8 +1,17 @@
 .PrettyNavContainer {
-    background-color: black;
+    background-color: transparent;
     position: absolute;
     margin-top: 2rem;
-    right: 2rem;
+    margin-left: 2rem;
     width: 50%;
-    height: 42.8rem;
+    height: 43rem;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    list-style: none;
+    grid-gap: 2rem;
+    justify-content: flex-start;
 }

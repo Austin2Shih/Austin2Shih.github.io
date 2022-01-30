@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import aboutMe from './components/aboutMe'
-import PrettyNav from './components/PrettyNav'
+import Home from './pages/Home'
+import Resume from './pages/Resume';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -13,9 +14,18 @@ function App() {
       </style>
       <Router>
         <Navbar />
-        <PrettyNav />
         <Switch>
-          <Route path='/' exact component={aboutMe} />
+          <Route path='/resume' component={Resume} />
+          <ul className='homepage-content'>
+            <li className='home'>
+              <Route path='/' exact component={Home} />
+            </li>
+            <li>
+              <Route path='/' exact component={Projects} />
+            </li>
+
+          </ul>
+          
         </Switch>
       </Router>
     </>  
@@ -23,3 +33,14 @@ function App() {
 }
 
 export default App;
+
+/*
+            <li>
+              <Route path='/' exact component={Resume} />
+            </li>
+            <li>
+              <Route path='/projects' exact component={Projects} />
+            </li>
+
+
+*/

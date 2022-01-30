@@ -1,0 +1,98 @@
+
+.resume-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+}
+
+.resume-subtitle-container {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.subtitle {
+    position: absolute;
+    color:white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.download-block {
+    position: absolute;
+    top: 9rem;
+    left: 4rem;
+}
+
+.download-text {
+    position: absolute;
+    color:white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.resume-block {
+    position: absolute;
+    background-color: #D9F2F8;
+    justify-self: center;
+    text-align: center;
+    width: 55%;
+    height: 50rem;
+    margin-left: 30%;
+    margin-top: 3rem;
+}
+
+.resume-constraints {
+    position: relative;
+    background-color: #D9F2F8;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    margin: auto;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+.resume-constraints img {
+    width: auto; 
+    height: 120%; 
+}
+
+@media screen and (max-width: 960px) {
+    .resume-subtitle-container {
+        top: 2rem;
+    }
+
+    .subtitle {  
+        position: absolute;
+        left: 0px;
+        color:white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .download-block {
+        position: absolute;
+        top: 7rem;
+        left: 4rem;
+    }
+
+
+    .resume-block {
+        position: absolute;
+        background-color: #D9F2F8;
+        justify-self: center;
+        text-align: center;
+        width: 90%;
+        height: 50rem;
+        margin-left: 5%;
+        margin-top: 11rem;
+    }
+}
