@@ -5,8 +5,10 @@ import './App.css';
 import Home from './pages/Home'
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact'
 
 function App() {
+
   return (
     <>
       <style>
@@ -18,14 +20,15 @@ function App() {
           <Route path='/resume' component={Resume} />
           <ul className='homepage-content'>
             <li className='home'>
-              <Route path='/' exact component={Home} />
+              <Route id='home' path='/' exact component={Home} />
             </li>
-            <li>
+            <li className = 'projects'>
               <Route path='/' exact component={Projects} />
             </li>
-
+            <li className='contact'>
+              <Route path='/' exact component={Contact} />
+            </li>
           </ul>
-          
         </Switch>
       </Router>
     </>  

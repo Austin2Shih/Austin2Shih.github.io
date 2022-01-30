@@ -1,0 +1,61 @@
+.project {
+    border-color: #5CE1E6;
+    border-style: solid;
+}
+
+.subtitle-divider {
+    position: relative;
+    width: 97%;
+    left: 1.5%;
+    border-top-color: #5CE1E6;
+    border-top-width: 4px;
+    border-top-style: solid;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle-text {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: white;
+
+
+}
+
+.project-blocks {
+    position: absolute;
+    margin-left:2rem;
+    display: grid;
+    grid-template-rows: repeat(2, 47rem);
+    grid-template-columns: repeat(4, 25rem);
+    grid-gap: 2rem;
+    list-style: none;
+    width: 98rem;
+    height: 65rem;
+}
+
+@media screen and (max-width: 1725px) {
+    .project-blocks {
+        grid-template-rows: repeat(2, 47rem);
+        grid-template-columns: repeat(3, 25rem);
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .project-blocks {
+        grid-template-rows: repeat(2, 47rem);
+        grid-template-columns: repeat(2, 25rem);
+    }
+
+}
+
+
+@media screen and (max-width: 840px) {
+    .project-blocks {
+        grid-template-rows: repeat(4, 47rem);
+        grid-template-columns: repeat(1, 25rem);
+    }
+}

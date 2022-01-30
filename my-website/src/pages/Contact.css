@@ -1,0 +1,18 @@
+.contacts-container {
+    width: 97%;
+    left: 1.5%;
+    position: relative;
+    border-top-color: #5CE1E6;
+    border-top-width: 4px;
+    border-top-style: solid;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: white;
+}

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.project-container {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.project-name {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+}
+
+.project-image {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.project-info-block {
+    top: 0.5rem;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    font-weight: 500;
+    border-bottom-color: #5CE1E6;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    padding-bottom: 1rem;
+}
+
+.project-dates {
+    color: white;
+}
+
+.project-notes {
+    color: white;
+}
+
+.project-description-block {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 1rem;
+}
+
+.project-description {
+    color: white;
+}
+
+
