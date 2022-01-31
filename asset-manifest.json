@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.216455c8.css",
-    "main.js": "/static/js/main.7e579ace.js",
+    "main.css": "/static/css/main.ba3d2e9a.css",
+    "main.js": "/static/js/main.4805b87a.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/ring-detection.png": "/static/media/ring-detection.2fdefc9ab48f15a7f02c.png",
     "static/media/toki and me smol.jpeg": "/static/media/toki and me smol.c4792cfca7b5a9dc0e98.jpeg",
@@ -11,14 +11,15 @@
     "static/media/overwatch-workshop.png": "/static/media/overwatch-workshop.76e3f4589bb058cd6257.png",
     "static/media/minesweeper-image": "/static/media/minesweeper-image.d39e31a2eba1682f11a7",
     "static/media/resume-icon.png": "/static/media/resume-icon.ee9ddea98b41da8429d2.png",
+    "static/media/logo512.png": "/static/media/logo512.b0eec036aba079cd0e2c.png",
     "static/media/MenuIcon.png": "/static/media/MenuIcon.2ad8b7c96fbcf143c0c5.png",
     "index.html": "/index.html",
-    "main.216455c8.css.map": "/static/css/main.216455c8.css.map",
-    "main.7e579ace.js.map": "/static/js/main.7e579ace.js.map",
+    "main.ba3d2e9a.css.map": "/static/css/main.ba3d2e9a.css.map",
+    "main.4805b87a.js.map": "/static/js/main.4805b87a.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.216455c8.css",
-    "static/js/main.7e579ace.js"
+    "static/css/main.ba3d2e9a.css",
+    "static/js/main.4805b87a.js"
   ]
 }
