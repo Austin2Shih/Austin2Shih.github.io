@@ -1,19 +1,21 @@
+
 .aboutMeBox {
     background-color: #D9F2F8;
-    height: 43rem;
-    width: 52rem;
+    height: auto;
+    width: calc(100% - 2rem);
     margin-left: 2rem;
     margin-top: 2rem;
+    padding-bottom: 2.95rem;
 }
 
 .circular-pic { 
     display: inline-block; 
     position: relative; 
-    width: 200px; 
-    height: 200px; 
+    width: calc(10.5vw);  
+    height: calc(10.5vw);
     overflow: hidden; 
     border-radius: 50%; 
-    margin-left: 5.8rem;
+    margin-left: 5.3vw;
     margin-top: 5.8rem;
     transform: scale(1.6);
 } 
@@ -27,7 +29,7 @@
 
 .helloBlock {
     font-family: "Montserrat", Arial, sans-serif;
-    margin-left: 24.5rem;
+    margin-left: 43.5%;
     margin-top: -8rem;
 }
 
@@ -39,7 +41,7 @@
 
 .nameBlock {
     font-family: "Montserrat", Arial, sans-serif;
-    margin-left: 24.4rem;
+    margin-left: 43%;
     margin-top: 1rem;
 }
 
@@ -51,7 +53,8 @@
 
 .aboutMeTextBlock {
     font-family: "Montserrat", Arial, sans-serif;
-    margin-left: 4.3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     margin-top: 7rem;
 }
 
@@ -62,10 +65,27 @@
     line-height: 3rem;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1240px) {
     .aboutMeBox {
-        transform-origin: left;
-        transform: scale(0.825);
+        background-color: #D9F2F8;
+        height: auto;
+        width: calc(100% - 4rem);
+        margin-left: 2rem;
+        margin-top: 2rem;
+        padding-bottom: 3.15rem;
     }
+
+    .circular-pic { 
+        display: inline-block; 
+        position: relative; 
+        width: calc(18vw);  
+        height: calc(18vw);
+        overflow: hidden; 
+        border-radius: 50%; 
+        margin-left: 8vw;
+        margin-top: 8vw;
+        transform: scale(1.6);
+    } 
 }
+
 

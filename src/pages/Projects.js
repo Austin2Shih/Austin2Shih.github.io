@@ -70,6 +70,19 @@ function Projects() {
       </li>
       <li className='project'>
         <Project
+          name='PANCAKEBOT-BOT'
+          src={require('../images/falling block game image.jpg')}
+          date='SUMMER 2020'
+          notes='COMPLETED'
+        >
+          Pancakebot-bot is a Python script that automatically farms Discord's Pancake-bot by fishing and 
+          answering Trivia questions. I leveraged OpenCV and the pyTesseract OCR to read in fishing and 
+          Trivia questions from Discord. Then, using the OpenTrivia API, I generated a database of Trivia 
+          questions so Pancakebot-bot could answer questions faster than I could even read them. 
+        </Project>
+      </li>
+      <li className='project'>
+        <Project
           name='THE FALLING BLOCK GAME'
           src={require('../images/falling block game image.jpg')}
           date='DEC 2021 - PRESENT'

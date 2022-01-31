@@ -36,14 +36,3 @@ function App() {
 }
 
 export default App;
-
-/*
-            <li>
-              <Route path='/' exact component={Resume} />
-            </li>
-            <li>
-              <Route path='/projects' exact component={Projects} />
-            </li>
-
-
-*/

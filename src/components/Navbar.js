@@ -13,8 +13,9 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to="/" className="nav-item">
-                    
+                <Link to="/" className="nav-logo">
+                    <img src={require('../images/logo512.png')} alt='logo'>
+                    </img>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <img className='clickable' src={require("../images/MenuIcon.png")} alt="=" height='30' resizeMode='contain'/>

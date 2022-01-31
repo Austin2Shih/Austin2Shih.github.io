@@ -12,31 +12,11 @@ body{
 
 .homepage-content {
     display: grid;
-    grid-template-rows: 45rem 55rem;
+    grid-template-rows: auto auto;
     grid-template-columns: 100%;
     grid-gap: 5rem;
     justify-content: flex-start;
 }
 
-@media screen and (max-width: 1725px) {
-    .homepage-content {
-        grid-template-rows: 45em 104rem;
-    }
-
-}
-
-@media screen and (max-width: 1600px) {
-    .homepage-content {
-        grid-template-rows: 90rem 104rem;
-    }
-
-}
-
-@media screen and (max-width: 840px) {
-    .homepage-content {
-        grid-template-rows: 90rem 200rem;
-    }
-
-}
   
  

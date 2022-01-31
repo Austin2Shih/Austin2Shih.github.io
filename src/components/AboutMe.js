@@ -19,10 +19,10 @@ function AboutMe() {
         </div>
         <div className='aboutMeTextBlock'>
             <p className='aboutMeTxt'>
-                I am a first-year Computer Science and <br></br>
-                Engineering major at UC Davis. During the last <br></br>
-                couple of years, I have been developing my <br></br>
-                coding skills by recreating games, automating <br></br>
+                I am a first-year Computer Science and 
+                Engineering major at UC Davis. During the last 
+                couple of years, I have been developing my 
+                coding skills by recreating games, automating 
                 complex tasks, and making websites.
             </p>
         </div>
