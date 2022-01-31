@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab56b0a1.css",
-    "main.js": "/static/js/main.ec7db4f7.js",
+    "main.css": "/static/css/main.da910493.css",
+    "main.js": "/static/js/main.fd8fcfd5.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/ring-detection.png": "/static/media/ring-detection.2fdefc9ab48f15a7f02c.png",
     "static/media/toki and me smol.jpeg": "/static/media/toki and me smol.c4792cfca7b5a9dc0e98.jpeg",
@@ -14,12 +14,12 @@
     "static/media/logo512.png": "/static/media/logo512.f2b76be2c72ee027b7c9.png",
     "static/media/MenuIcon.png": "/static/media/MenuIcon.2ad8b7c96fbcf143c0c5.png",
     "index.html": "/index.html",
-    "main.ab56b0a1.css.map": "/static/css/main.ab56b0a1.css.map",
-    "main.ec7db4f7.js.map": "/static/js/main.ec7db4f7.js.map",
+    "main.da910493.css.map": "/static/css/main.da910493.css.map",
+    "main.fd8fcfd5.js.map": "/static/js/main.fd8fcfd5.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab56b0a1.css",
-    "static/js/main.ec7db4f7.js"
+    "static/css/main.da910493.css",
+    "static/js/main.fd8fcfd5.js"
   ]
 }
