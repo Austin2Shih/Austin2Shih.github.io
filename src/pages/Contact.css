@@ -8,6 +8,7 @@
     border-top-style: solid;
     padding-top: 2rem;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 .subtitle {
@@ -54,4 +55,11 @@
 
 .link {
     text-decoration-color: #5CE1E6;
+}
+
+
+@media screen and (max-width:740px) {
+    .contacts-container {
+        left: 1rem;
+    }
 }

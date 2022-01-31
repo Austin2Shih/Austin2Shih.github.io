@@ -12,6 +12,7 @@ body{
 
 .homepage-content {
     display: grid;
+    list-style: none;
     grid-template-rows: auto auto;
     grid-template-columns: 100%;
     grid-gap: 5rem;

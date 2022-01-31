@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <style>
           @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
       </style>

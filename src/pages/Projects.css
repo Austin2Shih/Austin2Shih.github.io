@@ -52,6 +52,7 @@
         overflow: hidden;
         grid-template-rows: repeat(3, 47rem);
         grid-template-columns: repeat(2, 25rem);
+        margin-left: 1rem;
     }
 
 }
@@ -62,5 +63,9 @@
         overflow: hidden;
         grid-template-rows: repeat(5, 47rem);
         grid-template-columns: repeat(1, 25rem);
+    }
+
+    .subtitle-divider {
+        left: 1rem;
     }
 }
