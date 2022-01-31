@@ -2,6 +2,7 @@ import React from 'react';
 import './Project.css'
 
 function Project(props) {
+
     return(
         <div className='projectContainer' onClick={props.onClick}>
             <p className='project-name'>

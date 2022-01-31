@@ -21,6 +21,7 @@
     text-decoration: none;
 }
 
+
 .box-pic { 
     position: absolute; 
     bottom: 0rem;
@@ -29,16 +30,6 @@
     overflow: hidden; 
     transform: scale(1);
 } 
-
-.box-pic img { 
-    position: relative;
-    width: auto; 
-    height: 100%; 
-    margin-top: 1.75rem;
-    margin-left: -65px; 
-    overflow: hidden; 
-    transform: scale(0.83);
-}
 
 .buttonText {
     position: relative;
