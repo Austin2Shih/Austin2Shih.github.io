@@ -9,14 +9,14 @@ function Button(props) {
         width: auto; 
         height: 100%; 
         overflow: hidden;  
-        margin-top: ${props.marginTop}rem;
-        margin-left: ${props.marginLeft}px; 
+        margin-top: ${props.marginTop}%;
+        margin-left: ${props.marginLeft}%; 
         transform: scale(${props.imageScale});
     }`;
 
     return(
-        <Link to={props.href} className='button-link'>
-            <div className='buttonContainer' onClick={props.onClick}>
+        <Link to={props.href} className='button-link' onClick={props.onClick}>
+            <div className='buttonContainer'>
                 <p className='buttonText'>
                     {props.className}
                 </p>

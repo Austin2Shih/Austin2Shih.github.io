@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className='aboutMeBox'>
         <div class="circular-pic">
-            <img src={require("../images/toki and me smol.jpeg")} alt='Picture of Me :D' /> 
+            <img src={require("../images/toki and me smol.jpeg")} alt='Toki and I' /> 
         </div>
         <div className='helloBlock'>
             <i className='helloTxt'>

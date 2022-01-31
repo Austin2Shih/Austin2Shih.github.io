@@ -1,6 +1,7 @@
 .contacts-container {
     width: 97%;
-    left: 1.5%;
+    height: 15rem;
+    left: 2rem;
     position: relative;
     border-top-color: #5CE1E6;
     border-top-width: 4px;
@@ -19,7 +20,7 @@
 
 .contacts-list {
     margin-top: 1.7rem;
-    margin-left: 1.5rem;
+    margin-left:  0rem;
     display: flex;
     flex-wrap: wrap;
     grid-gap: 1rem;
@@ -28,10 +29,29 @@
     color: WHITE;
 }
 
-.link {
+.email-phone-list, .socials-list {
+    margin-left:  0rem;
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    list-style: none;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
     color: WHITE;
 }
 
-.link:hover {
-    transform: scale(1.04);
+.contact-type {
+    font-style: normal;
+    font-weight: 600;
+    color:#5CE1E6;
+}
+
+.contact-value {
+    color: white;
+    font-style: normal;
+}
+
+.link {
+    text-decoration-color: #5CE1E6;
 }

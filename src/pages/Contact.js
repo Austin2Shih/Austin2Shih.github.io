@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Contact.css'
 
 function Contact() {
@@ -9,20 +8,25 @@ function Contact() {
         CONTACT
       </p>
       <ul className='contacts-list'>
+        <ul className='email-phone-list'>
+          <li>
+            <i className='contact-type'>EMAIL: </i>
+            <i className='contact-value'>austinhshih@gmail.com</i>
+          </li>
+          <li>
+            <i className='contact-type'>PHONE: </i>
+            <i className='contact-value'>(510) 737-3634</i>
+          </li>
+        </ul>
+        <ul className='socials-list'>
+          <li>
+            <a href='https://www.linkedin.com/in/austin-shih/' className='link'>
+              <i className='contact-type'>LINKEDIN: </i>
+              <i className='contact-value'>Austin-Shih</i>
+            </a>
+          </li>
+        </ul>
         <li>
-          <p>
-            EMAIL: austinhshih@gmail.com
-          </p>
-        </li>
-        <li>
-          <a href='https://www.linkedin.com/in/austin-shih/' className='link'>
-            LINKEDIN: AUSTIN SHIH
-          </a>
-        </li>
-        <li>
-          <p>
-            PHONE: (510) 737-3634
-          </p>
         </li>
       </ul>
   </div>

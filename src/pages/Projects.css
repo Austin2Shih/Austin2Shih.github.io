@@ -7,7 +7,7 @@
 .subtitle-divider {
     position: relative;
     width: 97%;
-    left: 1.5%;
+    left: 2rem;
     border-top-color: #5CE1E6;
     border-top-width: 4px;
     border-top-style: solid;
@@ -50,7 +50,7 @@
 @media screen and (max-width: 1300px) {
     .project-blocks {
         overflow: hidden;
-        grid-template-rows: repeat(2, 47rem);
+        grid-template-rows: repeat(3, 47rem);
         grid-template-columns: repeat(2, 25rem);
     }
 
@@ -60,7 +60,7 @@
 @media screen and (max-width: 840px) {
     .project-blocks {
         overflow: hidden;
-        grid-template-rows: repeat(4, 47rem);
+        grid-template-rows: repeat(5, 47rem);
         grid-template-columns: repeat(1, 25rem);
     }
 }

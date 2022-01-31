@@ -14,3 +14,10 @@
         grid-template-columns: repeat(1, auto);
     }
 }
+
+@media screen and (max-width: 740px) {
+    .home-menu {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(1, 100%);
+    }
+}

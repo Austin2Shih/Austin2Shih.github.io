@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment, useRef } from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
@@ -18,17 +18,22 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/resume' component={Resume} />
-          <ul className='homepage-content'>
-            <li className='home'>
-              <Route id='home' path='/' exact component={Home} />
-            </li>
-            <li className = 'projects'>
-              <Route path='/' exact component={Projects} />
-            </li>
-            <li className='contact'>
-              <Route path='/' exact component={Contact} />
-            </li>
-          </ul>
+          <Route path='/' render={() =>
+            <Fragment>
+              <ul className='homepage-content'>
+                <li id='home' className='home'>
+                  <Home></Home>
+                </li>
+                <li id='projects' className='projects'>
+                  <Projects></Projects>
+                </li>
+                <li id='contact' className='contact'>
+                  <Contact></Contact>
+                </li>
+              </ul>
+                </Fragment>
+            } />
+
         </Switch>
       </Router>
     </>  

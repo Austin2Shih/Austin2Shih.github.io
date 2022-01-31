@@ -17,8 +17,12 @@
 }
 
 @media screen and (max-width: 740px) {
+    .PrettyNavContainer {
+        width: calc(100% - 2rem);
+        height: calc(100% - 2rem);
+    }
+
     .nav-list {
-        grid-template-rows: repeat(3, auto);
-        grid-template-columns: repeat(1, auto);
+        grid-gap: 1.2rem;
     }
 }
