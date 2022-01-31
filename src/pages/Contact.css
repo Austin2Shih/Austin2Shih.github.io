@@ -58,7 +58,7 @@
 }
 
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:500px) {
     .contacts-container {
         left: 1rem;
     }
