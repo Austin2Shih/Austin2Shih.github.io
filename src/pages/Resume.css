@@ -17,12 +17,18 @@
 }
 
 .download-block {
-    display: flex;
     position: absolute;
-    width: 100%;
-    top: 5rem;
-    left: 2.8rem;
+    height: 10rem;
+    width: 10.5rem;
+    top: 50%;
+    transform: translateY(-70%);
+    left: 2.5rem;
+    letter-spacing: normal;
     z-index: 50;
+    border-color: #263547;
+    border-width: 3px;
+    border-style: solid;
+    padding: 1rem;
 }
 
 .download-block-2 {
@@ -33,8 +39,16 @@
     color: #263547;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
     z-index: 50;
+}
+
+.download-img {
+    position: absolute;
+    transform: scale(0.1);
+    left: -26.9rem;
+    top: -26rem;
 }
 
 .download-link {
@@ -60,14 +74,6 @@
 }
 
 @media screen and (max-width: 960px) {
-    .download-block {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        bottom: 3rem;
-        left: 0;
-        margin-left: 2.6rem;
-    }
 
     .resume-block {
         position: absolute;
@@ -105,7 +111,7 @@
     .download-block-2 {
         display: flex;
         position: absolute;
-        left: 0;
+        left: 3rem;
         width: 100%;
         margin-top: 50rem;
         margin-left: 30%;
@@ -114,7 +120,8 @@
 
     .download-text {
         color: #5CE1E6;
-        text-decoration: none;
+        text-decoration: underline;
+        text-decoration-color: WHITE;
     }
 }
 

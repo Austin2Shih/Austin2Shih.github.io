@@ -4,6 +4,7 @@ import './Project.css'
 function Project(props) {
 
     return(
+        <a href={props.href} target='_blank' className='project-link'>
         <div className='projectContainer' onClick={props.onClick}>
             <p className='project-name'>
                 {props.name}
@@ -23,6 +24,7 @@ function Project(props) {
                 </p>
             </div>
         </div>
+        </a>
     );
 }
 

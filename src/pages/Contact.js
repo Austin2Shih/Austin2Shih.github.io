@@ -20,7 +20,7 @@ function Contact() {
         </ul>
         <ul className='socials-list'>
           <li>
-            <a href='https://www.linkedin.com/in/austin-shih/' className='link'>
+            <a href='https://www.linkedin.com/in/austin-shih/' target='_blank' className='link'>
               <i className='contact-type'>LINKEDIN: </i>
               <i className='contact-value'>Austin-Shih</i>
             </a>

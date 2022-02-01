@@ -29,11 +29,12 @@
     border-bottom-color: #5CE1E6;
     border-bottom-width: 4px;
     border-bottom-style: solid;
-    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
 }
 
 .project-dates {
     color: white;
+    padding-bottom :0.2rem;
 }
 
 .project-notes {
@@ -44,11 +45,16 @@
     position: relative;
     width: 90%;
     left: 5%;
-    top: 1rem;
+    top: 1.5rem;
 }
 
 .project-description {
     color: white;
+    line-height: 1.4rem;
+}
+
+.project-link {
+    text-decoration: none;
 }
 
 
