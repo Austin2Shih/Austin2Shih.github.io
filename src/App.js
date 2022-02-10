@@ -25,7 +25,12 @@ function App() {
                   <li id='home' className='home'>
                     <Home></Home>
                   </li>
-
+                  <li id='projects' className='projects'>
+                    <Projects></Projects>
+                  </li>
+                  <li id='contact' className='contact'>
+                    <Contact></Contact>
+                  </li>
                 </ul>
               </Fragment>
             }/>
