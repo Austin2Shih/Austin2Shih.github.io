@@ -32,6 +32,4 @@ function Button(props) {
 }
 
 export default Button;
-
-/*{`margin-top: 5px; margin-left: 5px;`}*/
     

@@ -10,7 +10,7 @@ function Home() {
             <li className='about-me-grid'>
                 <AboutMe></AboutMe>
             </li>
-            <li>
+            <li className='about-me-grid'>
                 <PrettyNav></PrettyNav>
             </li>
         </ul>

@@ -1,8 +1,8 @@
 .buttonContainer {
     position: relative;
     background-color: #4D90B9;
-    width: 20.5rem;
-    height: 20.5rem;
+    width: 100%;
+    aspect-ratio: 1;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
@@ -27,26 +27,31 @@
 } 
 
 .buttonText {
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
-    top: 1.5rem;
-    text-justify: center;
+    top: 9%;
     color: white;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.5vw;
     text-align: center;
     z-index: 10;
     letter-spacing: 0.1rem;
 }
 
-@media screen and (max-width: 740px) {
-    .buttonContainer {
-        width: 12.45rem;
-        height: 12.45rem;
-    }
-
+@media screen and (max-width: 800px) {
     .buttonText {
-        top: 0.7rem;
-        font-size: 1.2rem;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: relative;
+        top: 9%;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.4vw;
+        text-align: center;
+        z-index: 10;
+        letter-spacing: 0.1rem;
     }
 }

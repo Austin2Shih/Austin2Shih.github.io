@@ -1,29 +1,15 @@
 .PrettyNavContainer {
-    position: relative;
     margin-top: 2rem;
     margin-left: 2rem;
-    width: 43rem;
-    height: 43rem;
+    width: 100% - 2rem;
     left: 0;
 }
 
 .nav-list {
     display: grid;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, calc((100% - 2rem)/2));
     list-style: none;
     grid-gap: 2rem;
     justify-content: flex-start;
-}
-
-@media screen and (max-width: 500px) {
-    .PrettyNavContainer {
-        width: calc(100% - 2rem);
-        height: calc(100% - 2rem);
-        margin-left: 1rem;
-    }
-
-    .nav-list {
-        grid-gap: 1.2rem;
-    }
 }
