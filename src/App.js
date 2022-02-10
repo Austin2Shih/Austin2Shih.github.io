@@ -17,28 +17,34 @@ function App() {
       </style>
       <Router>
         <Navbar />
-        <Switch>
-          <Route path='/resume' component={Resume} />
-          <Route path='/' render={() =>
-            <Fragment>
-              <ul className='homepage-content'>
-                <li id='home' className='home'>
-                  <Home></Home>
-                </li>
-                <li id='projects' className='projects'>
-                  <Projects></Projects>
-                </li>
-                <li id='contact' className='contact'>
-                  <Contact></Contact>
-                </li>
-              </ul>
-                </Fragment>
-            } />
+          <Switch>
+            <Route path='/resume' component={Resume} />
+            <Route path='/' render={() =>
+              <Fragment>
+                <ul className='homepage-content'>
+                  <li id='home' className='home'>
+                    <Home></Home>
+                  </li>
 
-        </Switch>
+                </ul>
+              </Fragment>
+            }/>
+
+          </Switch>
+
       </Router>
     </>  
   );
 }
 
 export default App;
+
+/*
+                  <li id='projects' className='projects'>
+                    <Projects></Projects>
+                  </li>
+                  <li id='contact' className='contact'>
+                    <Contact></Contact>
+                  </li>
+
+*/

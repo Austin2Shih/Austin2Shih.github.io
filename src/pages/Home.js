@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className='home-container'>
         <ul className='home-menu'>
-            <li>
+            <li className='about-me-grid'>
                 <AboutMe></AboutMe>
             </li>
             <li>

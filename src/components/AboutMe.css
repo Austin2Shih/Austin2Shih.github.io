@@ -3,142 +3,122 @@
     background-color: #D9F2F8;
     height: auto;
     width: calc(100% - 2rem);
-    margin-left: 2rem;
-    margin-top: 2rem;
-    padding-bottom: 2.95rem;
+    left: 2rem;
+    top: 2rem;
+    position: absolute;
 }
 
 .circular-pic { 
-    display: inline-block; 
-    position: relative; 
-    width: calc(10.5vw);  
-    height: calc(10.5vw);
+    width: 35%;  
     overflow: hidden; 
     border-radius: 50%; 
-    margin-left: 5.3vw;
-    margin-top: 5.8rem;
-    transform: scale(1.6);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 } 
 
 .circular-pic img { 
-    width: auto; 
-    height: 100%; 
-    margin-left: 0px; 
-    transform: scale(1.10);
+    width: 100%; 
+    height: auto; 
+    margin-left: 5px; 
+    transform: scale(1.2);
 }
 
 .helloBlock {
     font-family: "Montserrat", Arial, sans-serif;
-    margin-left: 43.5%;
-    margin-top: -8rem;
+    margin-left: 46.5%;
+    top: 8vw;
+    position: absolute;
 }
 
 .helloTxt {
     font-style: normal;
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.5vw;
 }
 
 .nameBlock {
     font-family: "Montserrat", Arial, sans-serif;
-    margin-left: 43%;
-    margin-top: 1rem;
+    margin-left: 46%;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+    position: absolute;
+
 }
 
 .nameTxt {
     font-style: normal;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 3vw;
 }
 
 .aboutMeTextBlock {
     font-family: "Montserrat", Arial, sans-serif;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 7rem;
+    margin-left: calc(3vw + 1.3rem);
+    margin-right: 3vw;
+    margin-top: 21vw;
+    padding-bottom: 2.95rem;
 }
 
 .aboutMeTxt {
     font-style: normal;
     font-weight: 500;
-    font-size: 1.9rem;
-    line-height: 3rem;
+    font-size: 1.8vw;
+    line-height: 2.8vw;
 }
 
-@media screen and (max-width: 1240px) {
-    .aboutMeBox {
-        background-color: #D9F2F8;
-        height: auto;
-        width: calc(100% - 4rem);
-        margin-left: 2rem;
-        margin-top: 2rem;
-        padding-bottom: 3.15rem;
-    }
-
+@media screen and (max-width: 800px) {
     .circular-pic { 
-        display: inline-block; 
-        position: relative; 
-        width: calc(18vw);  
-        height: calc(18vw);
+        width: 35%;  
         overflow: hidden; 
         border-radius: 50%; 
-        margin-left: 8vw;
-        margin-top: 8vw;
-        transform: scale(1.6);
-    } 
-}
-
-@media screen and (max-width: 740px) {
-
-    .circular-pic { 
-        display: inline-block; 
-        position: relative; 
-        width: calc(18vw);  
-        height: calc(18vw);
-        overflow: hidden; 
-        border-radius: 50%; 
-        margin-left: 10vw;
-        margin-top: 10vw;
-        transform: scale(1.6);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 1.5rem;
     } 
 
     .helloBlock {
         font-family: "Montserrat", Arial, sans-serif;
-        margin-left: 43.5%;
-        margin-top: -5rem;
+        margin-left: 63.5%;
+        top: 8vw;
+        position: absolute;
     }
     
     .helloTxt {
         font-style: normal;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 2.5vw;
     }
     
     .nameBlock {
         font-family: "Montserrat", Arial, sans-serif;
-        margin-left: 43%;
-        margin-top: 0rem;
+        margin-left: 55.5%;
+        margin-top: 12.5vw;
+        position: absolute;
+    
     }
     
     .nameTxt {
         font-style: normal;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 4.5vw;
     }
     
     .aboutMeTextBlock {
         font-family: "Montserrat", Arial, sans-serif;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-top: 4rem;
+        margin-left: calc(40vw);
+        margin-right: 3vw;
+        margin-top: 20vw;
+        padding-bottom: 2rem;
     }
     
     .aboutMeTxt {
         font-style: normal;
         font-weight: 500;
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 2.5vw;
+        line-height: 2.8vw;
+        text-align: center;
     }
 }
-
 
