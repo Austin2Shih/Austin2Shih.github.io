@@ -2,7 +2,6 @@
     margin-top: 2rem;
     margin-left: 2rem;
     width: 100% - 2rem;
-    left: 0;
 }
 
 .nav-list {
@@ -12,4 +11,22 @@
     list-style: none;
     grid-gap: 2rem;
     justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+    .PrettyNavContainer {
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        width: 100% - 1.5rem;
+        left: 0;
+    }
+
+    .nav-list {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(2, calc((100% - 1.5rem)/2));
+        list-style: none;
+        grid-gap: 1.5rem;
+        justify-content: flex-start;
+    }
 }

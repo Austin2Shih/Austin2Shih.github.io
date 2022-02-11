@@ -43,13 +43,3 @@ function App() {
 }
 
 export default App;
-
-/*
-                  <li id='projects' className='projects'>
-                    <Projects></Projects>
-                  </li>
-                  <li id='contact' className='contact'>
-                    <Contact></Contact>
-                  </li>
-
-*/

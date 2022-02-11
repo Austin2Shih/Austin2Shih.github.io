@@ -1,11 +1,11 @@
 .contacts-container {
-    width: 97%;
+    width: calc(100% - 4rem);
     height: 15rem;
-    left: 2rem;
     position: relative;
     border-top-color: #5CE1E6;
     border-top-width: 4px;
     border-top-style: solid;
+    left: 2rem;
     padding-top: 2rem;
     margin-bottom: 2rem;
     overflow: hidden;
@@ -58,8 +58,17 @@
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     .contacts-container {
-        left: 1rem;
+        width: calc(100% - 3rem);
+        height: 15rem;
+        position: relative;
+        border-top-color: #5CE1E6;
+        border-top-width: 4px;
+        border-top-style: solid;
+        left: 1.5rem;
+        padding-top: 1.5rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
     }
 }

@@ -1,13 +1,32 @@
+.projects-container{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 100% - 2rem;
+}
+
 .project {
-    overflow: hidden;
     border-color: #5CE1E6;
     border-style: solid;
 }
 
+.project-blocks {
+    overflow: scroll;
+    overflow-y: hidden;
+    position: relative;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-rows: 50rem;
+    grid-template-columns: repeat(5, 25rem);
+    grid-gap: 3rem;
+    list-style: none;
+    width: 100% - 2rem;
+    height: auto;
+}
+
 .subtitle-divider {
     position: relative;
-    width: 97%;
-    left: 2rem;
+    width: calc(100% - 2rem);
     border-top-color: #5CE1E6;
     border-top-width: 4px;
     border-top-style: solid;
@@ -21,57 +40,48 @@
     font-weight: 600;
     font-size: 2.6rem;
     color: white;
-
-
-}
-
-.project-blocks {
-    overflow: hidden;
-    position: relative;
-    margin-left:2rem;
-    display: grid;
-    grid-template-rows: repeat(2, 50rem);
-    grid-template-columns: repeat(4, 25rem);
-    grid-gap: 2rem;
-    list-style: none;
-    width: 100% - 2rem;
-    height: auto;
-}
-
-@media screen and (max-width: 1725px) {
-    .project-blocks {
-        overflow: hidden;
-        grid-template-rows: repeat(2, 50rem);
-        grid-template-columns: repeat(3, 25rem);
-    }
-
-}
-
-@media screen and (max-width: 1300px) {
-    .project-blocks {
-        overflow: hidden;
-        grid-template-rows: repeat(3, 50rem);
-        grid-template-columns: repeat(2, 25rem);
-    }
-
 }
 
 
-@media screen and (max-width: 840px) {
-    .project-blocks {
-        overflow: hidden;
-        grid-template-rows: repeat(5, 50rem);
-        grid-template-columns: repeat(1, 25rem);
-    }
-}
 
-@media screen and (max-width: 500px) {
-    .project-blocks {
-        margin-left: 1rem;
+@media screen and (max-width: 800px) {
+    .projects-container{
+        position: relative;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        width: 100% - 1.5rem;
     }
 
     .subtitle-divider {
-        left: 1rem;
+        position: relative;
+        width: calc(100% - 1.5rem);
+        border-top-color: #5CE1E6;
+        border-top-width: 4px;
+        border-top-style: solid;
+        padding-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .subtitle-text {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 5vw;
+        color: white;
+    }
+
+    .project-blocks {
+        overflow: scroll;
+        overflow-y: hidden;
+        position: relative;
+        margin-right: 1.5rem;
+        display: grid;
+        grid-template-rows: 50rem;
+        grid-template-columns: repeat(5, 25rem);
+        grid-gap: 2rem;
+        list-style: none;
+        width: 100% - 3rem;
+        height: auto;
     }
 }
+
 
