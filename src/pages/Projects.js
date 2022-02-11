@@ -89,7 +89,7 @@ function Projects() {
           <li className='project'>
             <Project
               name='THE FALLING BLOCK GAME'
-              href='https://github.com/Austin2Shih/Super-Shiba-Adventure'
+              href='https://github.com/Austin2Shih/The-Falling-Block-Game/tree/dev'
               src={require('../images/falling block game image.jpg')}
               date='DEC 2021 - PRESENT'
               notes='IN PROGRESS'
