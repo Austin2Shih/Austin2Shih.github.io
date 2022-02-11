@@ -73,7 +73,7 @@
     margin-left: 2rem;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 800px) {
     .nav-item {
       display: flex;
       justify-content: flex-start;

@@ -25,6 +25,12 @@ function Contact() {
               <i className='contact-value'>Austin-Shih</i>
             </a>
           </li>
+          <li>
+            <a href='https://github.com/Austin2Shih' target='_blank' className='link'>
+              <i className='contact-type'>GITHUB: </i>
+              <i className='contact-value'>Austin2Shih</i>
+            </a>
+          </li>
         </ul>
         <li>
         </li>

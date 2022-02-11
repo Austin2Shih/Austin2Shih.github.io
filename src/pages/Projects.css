@@ -2,7 +2,7 @@
     position: relative;
     margin-top: 2rem;
     margin-left: 2rem;
-    width: 100% - 2rem;
+    width: calc(100% - 4rem);
 }
 
 .project {
@@ -11,6 +11,12 @@
 }
 
 .project-blocks {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 3rem);
+}
+
+.project-list {
     overflow: scroll;
     overflow-y: hidden;
     position: relative;
@@ -20,13 +26,14 @@
     grid-template-columns: repeat(5, 25rem);
     grid-gap: 3rem;
     list-style: none;
-    width: 100% - 2rem;
+    width: 100%;
     height: auto;
+    padding-bottom: 2rem;
 }
 
 .subtitle-divider {
     position: relative;
-    width: calc(100% - 2rem);
+    width: calc(100%);
     border-top-color: #5CE1E6;
     border-top-width: 4px;
     border-top-style: solid;
@@ -43,18 +50,29 @@
 }
 
 
+.right-button {
+    position: absolute;
+    width: 10%;
+    height: inherit;
+    right: 0;
+    background-image: linear-gradient(to right, rgba(38, 53, 71, 0), rgba(38, 53, 71, 01));
+    z-index: 1;
+}
+
+
+
 
 @media screen and (max-width: 800px) {
     .projects-container{
         position: relative;
         margin-top: 1rem;
         margin-left: 1.5rem;
-        width: 100% - 1.5rem;
+        width: calc(100% - 3rem);
     }
 
     .subtitle-divider {
         position: relative;
-        width: calc(100% - 1.5rem);
+        width: calc(100%);
         border-top-color: #5CE1E6;
         border-top-width: 4px;
         border-top-style: solid;
@@ -70,6 +88,12 @@
     }
 
     .project-blocks {
+        position: relative;
+        width: 100%;
+        height: calc(100% - 2.5rem);
+    }
+    
+    .project-list {
         overflow: scroll;
         overflow-y: hidden;
         position: relative;
@@ -77,10 +101,20 @@
         display: grid;
         grid-template-rows: 50rem;
         grid-template-columns: repeat(5, 25rem);
-        grid-gap: 2rem;
+        grid-gap: 3rem;
         list-style: none;
-        width: 100% - 3rem;
+        width: 100%;
         height: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    .right-button {
+        position: absolute;
+        width: 10%;
+        height: inherit;
+        right: 0;
+        background-image: linear-gradient(to right, rgba(38, 53, 71, 0), rgba(38, 53, 71, 1));
+        z-index: 1;
     }
 }
 

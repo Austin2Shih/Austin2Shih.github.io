@@ -84,7 +84,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        left: 1.5rem;
+        left: 1rem;
     } 
 
     .helloBlock {
@@ -102,7 +102,7 @@
     
     .nameBlock {
         font-family: "Montserrat", Arial, sans-serif;
-        margin-left: 55.5%;
+        margin-left: 56%;
         margin-top: 12.5vw;
         position: absolute;
     
@@ -116,9 +116,9 @@
     
     .aboutMeTextBlock {
         font-family: "Montserrat", Arial, sans-serif;
-        margin-left: calc(40vw);
+        margin-left: 38vw;
         margin-right: 3vw;
-        margin-top: 20vw;
+        margin-top: calc(18vw + 10px);
         padding-bottom: 2rem;
     }
     

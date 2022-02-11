@@ -23,7 +23,7 @@ function AboutMe() {
                 Engineering major at UC Davis. During the last 
                 couple of years, I have been developing my 
                 coding skills by recreating games, automating 
-                complex tasks, and making websites.
+                complex tasks, and developing websites.
             </p>
         </div>
     </div>
