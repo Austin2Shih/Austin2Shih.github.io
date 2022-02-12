@@ -10,8 +10,10 @@ function Contact() {
       <ul className='contacts-list'>
         <ul className='email-phone-list'>
           <li>
-            <i className='contact-type'>EMAIL: </i>
-            <i className='contact-value'>austinhshih@gmail.com</i>
+            <a className='link' href='mailto:austinhshih@gmail.com'>
+              <i className='contact-type'>EMAIL: </i>
+              <i className='contact-value'>austinhshih@gmail.com</i>
+            </a>
           </li>
           <li>
             <i className='contact-type'>PHONE: </i>

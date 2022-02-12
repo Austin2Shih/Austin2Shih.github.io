@@ -9,14 +9,24 @@ body{
     background-color: #263547;
 }
 
-
 .homepage-content {
     display: grid;
     list-style: none;
     grid-template-rows: auto auto;
     grid-template-columns: 100%;
-    grid-gap: 2rem;
     justify-content: flex-start;
+}
+
+.home, .projects, .contacts {
+    padding-bottom: 3rem;
+}
+
+.home {
+    scroll-margin-top: 70px;
+}
+
+.projects {
+    scroll-margin-top: 66px;
 }
 
   

@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 .projects-container{
     position: relative;
-    margin-top: 2rem;
     margin-left: 2rem;
     width: calc(100% - 4rem);
 }
@@ -65,7 +68,6 @@
 @media screen and (max-width: 800px) {
     .projects-container{
         position: relative;
-        margin-top: 1rem;
         margin-left: 1.5rem;
         width: calc(100% - 3rem);
     }

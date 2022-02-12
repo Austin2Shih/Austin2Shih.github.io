@@ -14,7 +14,6 @@ function Home() {
                 <PrettyNav></PrettyNav>
             </li>
         </ul>
-        
     </div>
     );
 }

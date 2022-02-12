@@ -1,11 +1,10 @@
 import React from 'react';
 import './Button.css'
-import { Link } from 'react-router-dom';
-
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Button(props) { 
-    const css = `.box-pic-${props.href} img{
-        position: relative;
+    const css = `.box-pic-${props.subClass} img{
+        position: absolute;
         width: auto; 
         height: 100%; 
         overflow: hidden;  
@@ -15,12 +14,13 @@ function Button(props) {
     }`;
 
     return(
-        <Link to={props.href} className='button-link' onClick={props.onClick}>
+        <Link to={props.href} className='button-link' onClick={props.onClick}
+        scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
             <div className='buttonContainer'>
                 <p className='buttonText'>
                     {props.className}
                 </p>
-                <div className={`box-pic box-pic-${props.href}`}>
+                <div className={`box-pic box-pic-${props.subClass}`}>
                     <style>
                         {css}
                     </style>

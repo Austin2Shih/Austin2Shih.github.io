@@ -22,7 +22,7 @@ function App() {
             <Route path='/' render={() =>
               <Fragment>
                 <ul className='homepage-content'>
-                  <li id='home' className='home'>
+                  <li id='about-me' className='home'>
                     <Home></Home>
                   </li>
                   <li id='projects' className='projects'>

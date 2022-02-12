@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
 import '../App'
 
@@ -10,43 +10,12 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const scrollToTop = () =>{
-        closeMobileMenu();
-        window.scrollTo({
-          top: 0, 
-          behavior: 'smooth'
-        });
-      };
-
-    const scrollToProjects = () => {
-        closeMobileMenu();
-        var scrollHeight;
-        if (window.innerWidth <= 740) {
-            scrollHeight = 1000;
-        } else if (window.innerWidth <= 1240) {
-            scrollHeight = 1480;
-        } else {
-            scrollHeight = 830;
-        }
-        window.scrollTo({
-          top: scrollHeight, 
-          behavior: 'smooth'
-        });
-    }
-
-    const scrollToContact = () => {
-        closeMobileMenu();
-        window.scrollTo({
-          top: 10000, 
-          behavior: 'smooth'
-        });
-    }
-
     return (
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to="/" className="nav-logo">
+                <Link to="/#about-me" className="nav-logo"
+                scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
                     <img src={require('../images/logo512.png')} alt='logo' resizeMode={'cover'}>
                     </img>
                 </Link>
@@ -55,7 +24,8 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={scrollToTop}>
+                        <Link to='/#about-me' className='nav-links' onClick={closeMobileMenu}
+                        scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
                             HOME
                         </Link>
                     </li>
@@ -65,12 +35,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link id='projects' to='/' className='nav-links' onClick={scrollToProjects}>
+                        <Link to='/#projects' className='nav-links' onClick={closeMobileMenu} 
+                        scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
                             PROJECTS
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={scrollToContact}>
+                        <Link to='/#contact' className='nav-links' onClick={closeMobileMenu}
+                        scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
                             CONTACT
                         </Link>
                     </li>
