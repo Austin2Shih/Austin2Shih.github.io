@@ -13,7 +13,6 @@ function Projects() {
       </p>
     </div>
     <div className='project-blocks'>
-      <div className='right-button'></div>
         <ul className='project-list'>
           <li className='project'>
             <Project

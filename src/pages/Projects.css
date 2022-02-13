@@ -8,10 +8,6 @@
     width: calc(100% - 4rem);
 }
 
-.project {
-    border-color: #5CE1E6;
-    border-style: solid;
-}
 
 .project-blocks {
     position: relative;
@@ -25,7 +21,7 @@
     position: relative;
     margin-right: 2rem;
     display: grid;
-    grid-template-rows: 50rem;
+    grid-template-rows: auto;
     grid-template-columns: repeat(5, 25rem);
     grid-gap: 3rem;
     list-style: none;
@@ -52,19 +48,6 @@
     color: white;
 }
 
-
-.right-button {
-    position: absolute;
-    width: 10%;
-    height: inherit;
-    right: 0;
-    background-image: linear-gradient(to right, rgba(38, 53, 71, 0), rgba(38, 53, 71, 01));
-    z-index: 1;
-}
-
-
-
-
 @media screen and (max-width: 800px) {
     .projects-container{
         position: relative;
@@ -80,6 +63,7 @@
         border-top-style: solid;
         padding-top: 1.5rem;
         margin-bottom: 1.5rem;
+        text-align: center;
     }
     
     .subtitle-text {
@@ -87,37 +71,30 @@
         font-weight: 600;
         font-size: 5vw;
         color: white;
+        
     }
 
     .project-blocks {
-        position: relative;
         width: 100%;
-        height: calc(100% - 2.5rem);
+        height: auto;
     }
     
     .project-list {
         overflow: scroll;
         overflow-y: hidden;
         position: relative;
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
+        margin-left: 1rem;
         display: grid;
-        grid-template-rows: 50rem;
-        grid-template-columns: repeat(5, 25rem);
+        height: auto;
+        grid-template-rows: 100%;
+        grid-template-columns: repeat(5, 100%);
         grid-gap: 3rem;
         list-style: none;
-        width: 100%;
-        height: auto;
+        width: calc(100% - 2rem);
         padding-bottom: 1.5rem;
     }
 
-    .right-button {
-        position: absolute;
-        width: 10%;
-        height: inherit;
-        right: 0;
-        background-image: linear-gradient(to right, rgba(38, 53, 71, 0), rgba(38, 53, 71, 1));
-        z-index: 1;
-    }
 }
 
 
