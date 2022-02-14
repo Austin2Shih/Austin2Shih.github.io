@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ccc51bb.css",
-    "main.js": "/static/js/main.afa38fd0.js",
+    "main.css": "/static/css/main.de06563c.css",
+    "main.js": "/static/js/main.effc0079.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/ring-detection.png": "/static/media/ring-detection.2fdefc9ab48f15a7f02c.png",
     "static/media/toki and me smol.jpeg": "/static/media/toki and me smol.c4792cfca7b5a9dc0e98.jpeg",
@@ -16,12 +16,12 @@
     "static/media/MenuIcon.png": "/static/media/MenuIcon.2ad8b7c96fbcf143c0c5.png",
     "static/media/download-button.png": "/static/media/download-button.7f218663c3a9d0e32622.png",
     "index.html": "/index.html",
-    "main.0ccc51bb.css.map": "/static/css/main.0ccc51bb.css.map",
-    "main.afa38fd0.js.map": "/static/js/main.afa38fd0.js.map",
+    "main.de06563c.css.map": "/static/css/main.de06563c.css.map",
+    "main.effc0079.js.map": "/static/js/main.effc0079.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ccc51bb.css",
-    "static/js/main.afa38fd0.js"
+    "static/css/main.de06563c.css",
+    "static/js/main.effc0079.js"
   ]
 }
