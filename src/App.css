@@ -19,6 +19,7 @@ body{
 
 .home, .projects, .contacts {
     padding-bottom: 3rem;
+    transition: all 0.5 ease;
 }
 
 .home {

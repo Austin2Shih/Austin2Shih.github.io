@@ -1,10 +1,8 @@
-
-
 .project-container {
     position: relative;
     border-color: #5CE1E6;
     border-style: solid;
-    height: 55%;
+    height: 30rem;
     width: 100%;
     overflow: hidden;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -20,7 +18,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: white;
     text-align: center;
 }
@@ -31,14 +29,11 @@
 }
 
 .project-info-block {
-    top: 0.5rem;
+    padding-top: 0.7rem;
+    margin-left: 5%;
     position: relative;
-    width: 90%;
-    left: 5%;
+    width: auto;
     font-weight: 500;
-    border-bottom-color: #5CE1E6;
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
     padding-bottom: 0.7rem;
     font-size: 0.8rem;
 }
@@ -48,15 +43,34 @@
     padding-bottom :0.2rem;
 }
 
-.project-notes {
-    color: white;
+.project-link {
+    font-size: 1rem;
+    color: #5CE1E6;
 }
 
-.project-description-block {
+.project-description-block.inactive {
+    position: absolute;
     width: 90%;
     margin-left: 5%;
-    margin-top: 1.5rem;
+    padding-bottom: 12rem;
+    padding-top: 1rem;
+    border-top-color: #5CE1E6;
+    border-top-width: 4px;
+    border-top-style: solid;
+    transition: all 0.5s ease;
+}
+
+.project-description-block.active {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
     padding-bottom: 6rem;
+    padding-top: 1rem;
+    border-top-color: #5CE1E6;
+    border-top-width: 4px;
+    border-top-style: solid;
+    transition: all 0.5s ease;
 }
 
 .project-description {
@@ -80,6 +94,36 @@
     font-size: 3rem;
     color: white;
     background-color: #4D90B9;
+}
+
+@media screen and (max-width: 800px) {
+    .project-name {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        font-size: 3.5vw;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 545px) {
+    .project-image {
+        margin-left: 5%;
+        width: 55%;
+    }
+
+    .project-info-block {
+        padding-top: 0.7rem;
+        margin-left: 63%;
+        position: absolute;
+        width: auto;
+        font-weight: 500;
+        padding-bottom: 0.7rem;
+        font-size: 0.9rem;
+        top: 3rem;
+    }
+
 }
 
 
